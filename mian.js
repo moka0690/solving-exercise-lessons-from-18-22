@@ -19,3 +19,18 @@ console.log(  (num * num + num) / (true+true)); // 6
 
 // Solution Six
 console.log((num*num+num+num+num)/(num)); // 6
+
+
+let numb = "10";
+
+// Solution One
+console.log(+numb+(+numb)); // 20
+
+// Solution Two
+console.log( +numb*(+numb)/(+numb)+(+numb)); // 20
+
+// Solution Three
+console.log((+numb)*(true+true)); // 20
+
+// Solution Four
+console.log([(+numb)*(+numb)]/(true+true+true+true+true)); // 20
