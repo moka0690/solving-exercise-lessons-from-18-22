@@ -34,3 +34,16 @@ console.log((+numb)*(true+true)); // 20
 
 // Solution Four
 console.log([(+numb)*(+numb)]/(true+true+true+true+true)); // 20
+
+
+
+
+let points = 10;
+
+// Write Your Code Here
+
+console.log(points+true+true+true); // 13
+
+// Write Your Code Here
+
+console.log(points-true-true); // 8;
